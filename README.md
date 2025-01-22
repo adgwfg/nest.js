@@ -18,12 +18,15 @@ costumes.tsx allows you to costumize
 # example
 
 caller.tsx
+
 call "button-1", btn-primary
 
 layout.tsx
+
 get "button-1" (50, 30, 25,)
 
 costumes.tsx
+
 get "button-1" :(
   background-click = "fffff"
   background = "00000"
